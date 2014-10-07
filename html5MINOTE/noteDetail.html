@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>newNote</title>
+	<meta mainfest=offline.appcache/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+	<script type="text/javascript" src="storage.js"></script>
+	<script type="text/javascript" src="noteDetail.js"></script>
+	<link rel="stylesheet" type="text/css" href="note.css">
+</head>
+<body>
+	<div id="tool">
+		<p id="showTime"></p>
+
+		<img src="img/bg_btn_set_color.png" id="changeColor">
+		<img src="img/save.png" id="save">
+	</div>
+	<div id="chooseColor">
+		<div class="colorBlock" colorIndex="0"></div>
+		<div class="colorBlock" colorIndex="1"></div>
+		<div class="colorBlock" colorIndex="2"></div>
+		<div class="colorBlock" colorIndex="3"></div>
+		<div class="colorBlock" colorIndex="4"></div>
+	</div>
+	<article id="article">
+		<textarea  style="width:100%;height:100%;line-height:40px;font-size:1.5em;padding:5px;" id="content"></textarea>
+	</article>
+</body>
+</html>
+
+

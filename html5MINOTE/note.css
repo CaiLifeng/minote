@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+}
+html,body{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+.noteListBody{
+	background-image:url("img/list_background.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+#noteList{
+	padding-top: 3%;
+	width: 100%;
+	height: 100%;
+	overflow-y:scroll;
+	border-radius: 10px;
+}
+
+#noteList li{
+	width: 94%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+	background-color: orange;
+	border-bottom: 1px solid #ADADAD;
+	border-radius:2px;
+	font-size: 0.5em;
+}
+#addNote{
+	height: 20%;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
+#tool{
+	height:50px;
+	width: 100%;
+	line-height: 50px;
+	overflow: hidden;
+}
+#tool p{
+	display: inline;
+	padding-left: 5px;
+}
+#tool img{
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#chooseColor{
+	position: absolute;
+	display: none;
+	right: 10px;
+	width: 165px;
+	height: 50px;
+	float: right;
+	background-image: url("img/note_edit_color_selector_panel.png");
+	background-position: right;
+	background-size:contain;
+	background-repeat: no-repeat;
+	z-index: 1;
+
+}
+
+#chooseColor .colorBlock{
+	width:20%;
+	float:left;
+	height:100%;
+}
+article{
+	display: block;
+}
+article p{
+	height:30px;
+	line-height: 30px;
+}
+
